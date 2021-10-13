@@ -1,0 +1,35 @@
+13:38:26.446 WARN  ~~ LOOPS: 28. ENTITY #: 222//221. VIEW #: 2. BACKLOGGED :: 664.071%! ~~ 
+13:38:26.448 WARN  Total activation time: 27 
+13:38:26.448 WARN  Total collision time: 6089 
+13:38:26.448 WARN  Total cycle time: 82 
+13:38:26.448 WARN  Total player update time: 29 
+13:38:26.448 WARN  Total lb+minimap processing time: 4 
+13:38:26.448 WARN  Total entity physics calculation time: 4 
+13:38:26.448 WARN  Total entity life+thought cycle time: 32 
+13:38:26.448 WARN  Total entity selfie-taking time: 13 
+13:38:26.448 WARN  Total time: 6280 
+13:40:39.448 WARN  ~~ LOOPS: 24. ENTITY #: 224//223. VIEW #: 2. BACKLOGGED :: 4038.125%! ~~ 
+13:40:39.448 WARN  Total activation time: 26 
+13:40:39.448 WARN  Total collision time: 16 
+13:40:39.448 WARN  Total cycle time: 32263 
+13:40:39.448 WARN  Total player update time: 25 
+13:40:39.448 WARN  Total lb+minimap processing time: 3 
+13:40:39.448 WARN  Total entity physics calculation time: 3 
+13:40:39.448 WARN  Total entity life+thought cycle time: 32227 
+13:40:39.448 WARN  Total entity selfie-taking time: 15 
+13:40:39.448 WARN  Total time: 64578 
+14:52:32.258 ERROR read ETIMEDOUT
+Error: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) 
+15:15:07.774 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:312:12)
+    at WebSocket.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:377:18) 

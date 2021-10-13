@@ -1,0 +1,233 @@
+08:15:06.633 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+08:33:22.460 WARN   Kicking. 1 warning. 
+09:21:48.403 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:28:21.652 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:28:37.267 WARN  {} 
+09:28:37.267 ERROR [case h][Chat System] 
+09:28:37.270 ERROR player is not defined
+ReferenceError: player is not defined
+    at BackToBasic (/home/drew/arrasio-chat-system/src/server/server.js:216:9)
+    at /testbed (/home/drew/arrasio-chat-system/src/server/server.js:772:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4199:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5449:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10) 
+09:28:42.996 WARN  {} 
+09:28:42.996 ERROR [case h][Chat System] 
+09:28:42.996 ERROR player is not defined
+ReferenceError: player is not defined
+    at BackToBasic (/home/drew/arrasio-chat-system/src/server/server.js:216:9)
+    at /testbed (/home/drew/arrasio-chat-system/src/server/server.js:772:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4199:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5449:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10) 
+09:31:46.350 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+12:21:02.263 WARN  [Correct]8C6976E5B5410415BDE908BD4DEE15DFB167A9C873FC4BB8A81F6F2AB448A918 
+12:21:14.698 WARN  {} 
+12:21:14.698 ERROR [case h][Chat System] 
+12:21:14.703 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:23:45.324 WARN  {} 
+12:23:45.324 ERROR [case h][Chat System] 
+12:23:45.324 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:24:04.262 WARN  {} 
+12:24:04.262 ERROR [case h][Chat System] 
+12:24:04.262 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:25:50.154 WARN  {} 
+12:25:50.154 ERROR [case h][Chat System] 
+12:25:50.154 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:27:42.601 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+12:27:54.040 WARN  {} 
+12:27:54.040 ERROR [case h][Chat System] 
+12:27:54.042 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:28:11.820 WARN  {} 
+12:28:11.820 ERROR [case h][Chat System] 
+12:28:11.820 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:29:02.508 WARN  {} 
+12:29:02.508 ERROR [case h][Chat System] 
+12:29:02.508 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+12:31:00.913 WARN  {} 
+12:31:00.913 ERROR [case h][Chat System] 
+12:31:00.915 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:781:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4208:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5458:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:07:09.183 WARN  {} 
+13:07:09.183 ERROR [case h][Chat System] 
+13:07:09.186 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:787:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:15:50.606 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:18:28.078 WARN   Kicking. 1 warning. 
+13:20:33.628 WARN  {} 
+13:20:33.628 ERROR [case h][Chat System] 
+13:20:33.630 ERROR healoff is not defined
+ReferenceError: healoff is not defined
+    at /healoff (/home/drew/arrasio-chat-system/src/server/server.js:844:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:21:16.702 WARN  {} 
+13:21:16.702 ERROR [case h][Chat System] 
+13:21:16.702 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:787:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:31:46.338 WARN  {} 
+13:31:46.338 ERROR [case h][Chat System] 
+13:31:46.339 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:787:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:31:52.034 WARN  {} 
+13:31:52.034 ERROR [case h][Chat System] 
+13:31:52.035 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:787:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+13:42:29.785 WARN  {} 
+13:42:29.785 ERROR [case h][Chat System] 
+13:42:29.787 ERROR toBasic is not defined
+ReferenceError: toBasic is not defined
+    at /basic (/home/drew/arrasio-chat-system/src/server/server.js:787:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4217:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5467:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 

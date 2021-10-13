@@ -1,0 +1,17 @@
+08:51:29.726 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:00:16.559 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:13:08.135 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:20:13.338 ERROR write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.doClose (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:153:10)
+    at Sender.close (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:140:12) 
+15:54:13.028 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+16:27:36.126 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 

@@ -1,0 +1,33 @@
+08:59:15.715 WARN  Bad packet index. Kicking. 1 warning. 
+08:59:16.203 WARN  Bad packet index. Kicking. 2 warnings. 
+08:59:16.712 WARN  Bad packet index. Kicking. 3 warnings. 
+08:59:31.788 WARN  Bad packet index. Kicking. 4 warnings. 
+08:59:31.989 WARN  Bad packet index. Kicking. 5 warnings. 
+08:59:32.988 WARN  Bad packet index. Kicking. 6 warnings. 
+08:59:52.435 WARN  Bad packet index. Kicking. 7 warnings. 
+08:59:53.432 WARN  Bad packet index. Kicking. 8 warnings. 
+08:59:53.635 WARN  Bad packet index. Kicking. 9 warnings. 
+08:59:54.271 WARN  Bad packet index. Kicking. 10 warnings. 
+09:00:43.128 WARN  Bad packet index. Kicking. 11 warnings. 
+09:00:44.128 WARN  Bad packet index. Kicking. 12 warnings. 
+09:00:46.117 WARN  Bad packet index. Kicking. 13 warnings. 
+09:05:20.507 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:16:23.817 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.doClose (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:153:10)
+    at Sender.close (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:140:12) 
+09:17:33.844 WARN   Kicking. 1 warning. 
+09:18:42.823 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:21:35.360 WARN   Kicking. 2 warnings. 
+09:22:41.870 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:32:56.017 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:18:12.715 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:45:31.330 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 

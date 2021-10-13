@@ -1,0 +1,58 @@
+10:23:03.816 ERROR read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) 
+12:25:56.164 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:388:20)
+    at Sender.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:312:12)
+    at WebSocket.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:377:18) 
+14:06:33.439 ERROR write ECONNRESET
+Error: write ECONNRESET
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.doClose (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:153:10)
+    at Sender.close (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:140:12) 
+14:06:35.495 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:388:20)
+    at Sender.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:312:12)
+    at WebSocket.send (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:377:18) 
+14:12:36.348 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.doClose (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:153:10)
+    at Sender.close (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:140:12) 
+15:50:43.528 ERROR read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) 
+16:23:21.565 WARN  Malformed command packet. Kicking. 1 warning. 
+16:41:32.748 ERROR read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) 

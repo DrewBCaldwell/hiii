@@ -1,0 +1,22 @@
+08:19:37.976 WARN  [Wrong]9B656CF0C01DAEE33AEC7F8B84AAAE2EA58848061C3E58B00247517788B1CAFE 
+08:19:56.889 WARN  [Correct]8C6976E5B5410415BDE908BD4DEE15DFB167A9C873FC4BB8A81F6F2AB448A918 
+08:20:09.550 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+08:20:31.936 WARN  undefined banned! 
+12:34:32.978 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:15:17.491 ERROR read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) 
+13:24:55.074 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+14:13:35.627 ERROR [listPlayers()] 
+14:13:35.629 ERROR bannedIPs is not defined
+ReferenceError: bannedIPs is not defined
+    at whoisbanend (/home/drew/server/bin/server/server.js:549:46)
+    at /getbanned (/home/drew/server/bin/server/server.js:874:9)
+    at incoming (/home/drew/server/bin/server/server.js:4128:37)
+    at WebSocket.socket.on.message (/home/drew/server/bin/server/server.js:5485:49)
+    at WebSocket.emit (events.js:198:13)
+    at Receiver._receiver.onmessage (/home/drew/server/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/server/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/server/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/server/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/server/node_modules/ws/lib/Receiver.js:139:10) 

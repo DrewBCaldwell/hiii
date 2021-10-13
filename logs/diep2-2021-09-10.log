@@ -1,0 +1,45 @@
+09:00:44.343 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:04:03.076 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:04:31.403 WARN   Kicking. 1 warning. 
+09:15:14.002 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:18:04.474 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:29:54.306 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:33:11.094 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+10:05:25.298 WARN  [Correct]8C6976E5B5410415BDE908BD4DEE15DFB167A9C873FC4BB8A81F6F2AB448A918 
+12:22:33.554 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+12:23:52.680 WARN   Kicking. 1 warning. 
+12:27:15.504 WARN   Kicking. 2 warnings. 
+12:31:26.875 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+12:32:36.415 WARN   Kicking. 1 warning. 
+13:09:36.257 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:12:57.420 ERROR [authenticate()] 
+13:12:57.421 ERROR Cannot read property 'body' of undefined
+TypeError: Cannot read property 'body' of undefined
+    at authenticate (/home/drew/arrasio-chat-system/src/server/server.js:413:25)
+    at /pwd (/home/drew/arrasio-chat-system/src/server/server.js:781:13)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4167:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5417:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10) 
+13:14:05.298 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:32:13.336 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+13:32:26.150 WARN   Kicking. 1 warning. 
+14:07:14.759 ERROR write ECONNRESET
+Error: write ECONNRESET
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:94:16) 
+14:07:14.766 ERROR read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) 
+14:08:03.474 WARN  Malformed command packet. Kicking. 1 warning. 
+16:01:11.579 WARN  Bad packet index. Kicking. 1 warning. 
+16:01:11.625 WARN  Bad packet index. Kicking. 2 warnings. 
+16:01:11.733 WARN  Bad packet index. Kicking. 3 warnings. 
+16:01:12.047 WARN  Bad packet index. Kicking. 4 warnings. 
+16:01:12.180 WARN  Bad packet index. Kicking. 5 warnings. 
+16:01:12.200 WARN  Bad packet index. Kicking. 6 warnings. 
+16:01:12.222 WARN  Bad packet index. Kicking. 7 warnings. 
+16:01:12.323 WARN  Bad packet index. Kicking. 8 warnings. 

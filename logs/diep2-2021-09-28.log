@@ -1,0 +1,74 @@
+08:51:38.122 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+09:04:01.921 WARN  {} 
+09:04:01.921 ERROR [case h][Chat System] 
+09:04:01.924 ERROR healoff is not defined
+ReferenceError: healoff is not defined
+    at /healoff (/home/drew/arrasio-chat-system/src/server/server.js:883:9)
+    at incoming (/home/drew/arrasio-chat-system/src/server/server.js:4269:33)
+    at WebSocket.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:5519:49)
+    at WebSocket.emit (events.js:314:20)
+    at Receiver._receiver.onmessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:141:47)
+    at Receiver.dataMessage (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:380:14)
+    at Receiver.getData (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:330:12)
+    at Receiver.startLoop (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:165:16)
+    at Receiver.add (/home/drew/arrasio-chat-system/node_modules/ws/lib/Receiver.js:139:10)
+    at Socket.<anonymous> (/home/drew/arrasio-chat-system/node_modules/ws/lib/WebSocket.js:138:22) 
+11:03:23.069 WARN  [Wrong]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+11:04:51.078 WARN  [Correct]8C6976E5B5410415BDE908BD4DEE15DFB167A9C873FC4BB8A81F6F2AB448A918 
+14:22:04.714 WARN  [Correct]CFDE2CA5188AFB7BDD0691C7BEF887BABA78B709AADDE8E8C535329D5751E6FE 
+14:22:13.203 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
+14:26:12.308 ERROR write EPIPE
+Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:788:11)
+    at Socket._write (net.js:800:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Sender.sendFrame (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:390:20)
+    at Sender.doClose (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:153:10)
+    at Sender.close (/home/drew/arrasio-chat-system/node_modules/ws/lib/Sender.js:140:12) 
+15:53:18.546 ERROR Cannot read property 'remove' of undefined
+TypeError: Cannot read property 'remove' of undefined
+    at /home/drew/arrasio-chat-system/src/server/server.js:3520:36
+    at Array.forEach (<anonymous>)
+    at Entity.destroy (/home/drew/arrasio-chat-system/src/server/server.js:3517:18)
+    at /home/drew/arrasio-chat-system/src/server/server.js:3861:26
+    at Object.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:3879:7)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) 
+15:53:18.547 ERROR bee 
+15:53:18.549 ERROR {"PARENT":[{"LABEL":"Swarm Drone","TYPE":"swarm","ACCEPTS_SCORE":false,"SHAPE":3,"MOTION_TYPE":"swarm","FACING_TYPE":"smoothWithMotion","CONTROLLERS":["nearestDifferentMaster","mapTargetToGoal"],"CRAVES_ATTENTION":true,"BODY":{"ACCELERATION":3,"PENETRATION":1.5,"HEALTH":0.175,"DAMAGE":2.25,"SPEED":4.5,"RESIST":1.6,"RANGE":225,"DENSITY":12,"PUSHABILITY":0.5,"FOV":1.5},"DIE_AT_RANGE":true,"BUFF_VS_FOOD":true,"index":16,"mockup":{"body":{"type":1,"id":16,"index":16,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.555120301556214,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Swarm Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}},"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}}}],"PERSISTS_AFTER_DEATH":true,"SHAPE":4,"DRAW_HEALTH":true,"LABEL":"Drone","HITS_OWN_TYPE":"hardWithBuffer","index":17,"mockup":{"body":{"type":3,"id":17,"index":17,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.2533141373155001,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}},"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}}} 
+15:53:27.386 ERROR Cannot read property 'remove' of undefined
+TypeError: Cannot read property 'remove' of undefined
+    at /home/drew/arrasio-chat-system/src/server/server.js:3520:36
+    at Array.forEach (<anonymous>)
+    at Entity.destroy (/home/drew/arrasio-chat-system/src/server/server.js:3517:18)
+    at /home/drew/arrasio-chat-system/src/server/server.js:3861:26
+    at Object.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:3879:7)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) 
+15:53:27.386 ERROR bee 
+15:53:27.387 ERROR {"PARENT":[{"LABEL":"Swarm Drone","TYPE":"swarm","ACCEPTS_SCORE":false,"SHAPE":3,"MOTION_TYPE":"swarm","FACING_TYPE":"smoothWithMotion","CONTROLLERS":["nearestDifferentMaster","mapTargetToGoal"],"CRAVES_ATTENTION":true,"BODY":{"ACCELERATION":3,"PENETRATION":1.5,"HEALTH":0.175,"DAMAGE":2.25,"SPEED":4.5,"RESIST":1.6,"RANGE":225,"DENSITY":12,"PUSHABILITY":0.5,"FOV":1.5},"DIE_AT_RANGE":true,"BUFF_VS_FOOD":true,"index":16,"mockup":{"body":{"type":1,"id":16,"index":16,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.555120301556214,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Swarm Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}},"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}}}],"PERSISTS_AFTER_DEATH":true,"SHAPE":4,"DRAW_HEALTH":true,"LABEL":"Drone","HITS_OWN_TYPE":"hardWithBuffer","index":17,"mockup":{"body":{"type":3,"id":17,"index":17,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.2533141373155001,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}},"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}}} 
+15:53:48.100 ERROR Cannot read property 'remove' of undefined
+TypeError: Cannot read property 'remove' of undefined
+    at /home/drew/arrasio-chat-system/src/server/server.js:3520:36
+    at Array.forEach (<anonymous>)
+    at Entity.destroy (/home/drew/arrasio-chat-system/src/server/server.js:3517:18)
+    at /home/drew/arrasio-chat-system/src/server/server.js:3861:26
+    at Object.<anonymous> (/home/drew/arrasio-chat-system/src/server/server.js:3879:7)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:60:12) 
+15:53:48.100 ERROR bee 
+15:53:48.101 ERROR {"PARENT":[{"LABEL":"Swarm Drone","TYPE":"swarm","ACCEPTS_SCORE":false,"SHAPE":3,"MOTION_TYPE":"swarm","FACING_TYPE":"smoothWithMotion","CONTROLLERS":["nearestDifferentMaster","mapTargetToGoal"],"CRAVES_ATTENTION":true,"BODY":{"ACCELERATION":3,"PENETRATION":1.5,"HEALTH":0.175,"DAMAGE":2.25,"SPEED":4.5,"RESIST":1.6,"RANGE":225,"DENSITY":12,"PUSHABILITY":0.5,"FOV":1.5},"DIE_AT_RANGE":true,"BUFF_VS_FOOD":true,"index":16,"mockup":{"body":{"type":1,"id":16,"index":16,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.555120301556214,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Swarm Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}},"position":{"middle":{"x":0,"y":0},"axis":3.11024,"points":[{"x":1.55512,"y":0},{"x":-0.77756,"y":-1.34677},{"x":-0.77756,"y":1.34677}]}}}],"PERSISTS_AFTER_DEATH":true,"SHAPE":4,"DRAW_HEALTH":true,"LABEL":"Drone","HITS_OWN_TYPE":"hardWithBuffer","index":17,"mockup":{"body":{"type":3,"id":17,"index":17,"x":0,"y":0,"vx":0,"vy":0,"size":1,"rsize":1.2533141373155001,"status":1,"health":1,"shield":null,"facing":0,"vfacing":0,"twiggle":false,"layer":0,"color":16,"roleColorIndex":8,"name":"Drone","score":0,"guns":[],"turrets":[],"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}},"position":{"middle":{"x":0,"y":0},"axis":2.50663,"points":[{"x":0.414531,"y":1.18278},{"x":-0.414531,"y":-1.18278},{"x":1.18278,"y":-0.414531}]}}} 
+15:56:34.505 WARN  [Correct]4C1029697EE358715D3A14A2ADD817C4B01651440DE808371F78165AC90DC581 
