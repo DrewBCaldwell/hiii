@@ -1,0 +1,11 @@
+{
+    "blacklist": -1,
+    "guest": 0,
+    "member": 10,
+    "member_female": 11,
+    "ambassador": 13,
+    "moderator": 15,
+    "testbed": 30,
+    "admin": 50,
+    "owner": 90
+}
